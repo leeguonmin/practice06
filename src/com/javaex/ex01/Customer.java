@@ -6,4 +6,4 @@ public class Customer extends Person{
 	
 }
 
-나진짜너무모르는데어떡해
+확인용커밋
