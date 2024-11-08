@@ -6,5 +6,4 @@ public class Customer extends Person{
 	
 }
 
-
-집에가서꼭..연습하기약속
+나진짜너무모르는데어떡해
