@@ -6,4 +6,4 @@ public class Customer extends Person{
 	
 }
 
-확인용커밋
+확인용커밋  제발커밋제발
