@@ -1,5 +1,7 @@
 package com.javaex.ex04;
 
+//(얘를 추상으로 할거임)
+// 링크어쩌고가 안되면, 배열이라도 해. 포기하지말고
 public class User {
 //	 필드 선언 
 	String id;
