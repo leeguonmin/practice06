@@ -4,6 +4,7 @@ public class Employee extends User {
 	// 필드 선언 
 	int salary;
 	
+	// 생성자
 	public Employee(String id, String password, String name, int salary) {
 		super(id,password,name);
 		this.salary=salary;

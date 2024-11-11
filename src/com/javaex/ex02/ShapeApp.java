@@ -4,6 +4,8 @@ public class ShapeApp {
 
 	public static void main(String[] args) {
 		
+	
+		
 		Shape s1 = new Shape("파랑", "파랑");
 		System.out.println("================");
 		
@@ -19,4 +21,5 @@ public class ShapeApp {
 	}
 
 }
+
 

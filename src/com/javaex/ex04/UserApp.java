@@ -3,15 +3,30 @@ package com.javaex.ex04;
 public class UserApp {
 
 	public static void main(String[] args) {
+	
 		
-		Customer t = new Customer("Jws", "J1234", "정우성", 1000);
-		t.show();
+		int[][] two = new int[3][4];
 		
-		Customer e = new Customer("yis", "y23445", "이효리", 9587);
-		e.show();
+		int sum = 0; 
+		for (int row = 0; row < table.length; ++row) { 	// 행 루프
+			for (int col = 0; col < table[row].length; ++col) {	// 열루프
+				int val = table[row][col];
+				
+				System.out.print(val + "\t");
+				sum += val; 		// 내부 cell 데이터 합산
+			}
 		
-		Employee r = new Employee("master", "m7894", "운영자", 5000);
-		r.show();
+		
+		
+		
+//		Customer t = new Customer("Jws", "J1234", "정우성", 1000);
+//		t.show();
+//		
+//		Customer e = new Customer("yis", "y23445", "이효리", 9587);
+//		e.show();
+//		
+//		Employee r = new Employee("master", "m7894", "운영자", 5000);
+//		r.show();
 
 	}
 

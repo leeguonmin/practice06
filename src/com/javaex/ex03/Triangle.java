@@ -1,22 +1,24 @@
 package com.javaex.ex03;
 
-public class Triangle extends Shape{
+import com.javaex.ex02.Shape;
+
+public class Triangle extends Shape {
+	private int wid;
+	private int hei;
 	
-	private int width;
-	private int height;
-	
-	public Triangle(int width, int height) {
-		this.width = width;
-		this.height = height;
+	public Triangle(int wid, int hei) {
+		this.wid=wid;
+		this.hei=hei;
 	}
 	
-	public void showInfo() {
-		System.out.println("====삼각형====");
-		System.out.println("#면색:"+fillColor);
-		System.out.println("#선색:"+lineColor);
-		System.out.println("#가로:"+width);
-		System.out.println("#세로:"+height);
+	public void show() {
+		System.out.println("====삼격형===");
+		System.out.println("#면색:" + fill);
+		System.out.println("#선색:"+ line);
+		System.out.println("#가로:"+ wid);
+		System.out.println("#세러:+hei");
 	}
+	
 }
 
 
