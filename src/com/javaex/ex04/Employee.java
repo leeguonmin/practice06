@@ -6,6 +6,7 @@ public class Employee extends User {
 	int oll;
 	int u;
 	
+	
 	// 생성자
 	public Employee(String id, String password, String name, int salary, int oll,int u) {
 		super(id,password,name);
