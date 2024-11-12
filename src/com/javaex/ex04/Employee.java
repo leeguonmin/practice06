@@ -21,5 +21,6 @@ public class Employee extends User {
 		System.out.printf("운영자의 연봉은 %d원 입니돠.%n",u);
 	}
 
+	
 }
 
