@@ -14,9 +14,11 @@ public class UserApp {
 		user[2]=new Employee("master", "m7894", "운영자", 500, 5000000,55);
 		user[3]=new Employee("master", "m0101", "알바천국", 900, 900000000,99);
 		
+
 		for(int i=0; i<user.length; ++i) {
-			user[i].show();
+			;user[i].show();
 		}
+
 		
 		
 		

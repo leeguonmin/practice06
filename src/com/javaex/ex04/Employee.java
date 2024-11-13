@@ -17,7 +17,7 @@ public class Employee extends User {
 	
 	@Override
 	public void show() {
-		System.out.printf("#아이디:%s, #패스워드:%s, #이름:%s, #월급:%d%n", id,password,name,salary);
+		System.out.printf("#아이디:%s, #패스워드:%s, #이름:%s, #월급:%d%n", getId(),password,name,salary);
 		System.out.printf("운영자의 월급은 %d원 이빈다.%n",oll);
 		System.out.printf("운영자의 연봉은 %d원 입니돠.%n",u);
 	}
