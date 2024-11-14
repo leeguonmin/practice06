@@ -10,6 +10,7 @@ public class 기본1 {
         System.out.println(str);
 
         
+        
         sc.close();
     }
 }
