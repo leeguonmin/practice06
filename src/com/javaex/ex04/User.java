@@ -4,7 +4,7 @@ package com.javaex.ex04;
 // 링크어쩌고가 안되면, 배열이라도 해. 포기하지말고
 public class User {
 //	 필드 선언 
-	String id;
+	private String id;
 	String password;
 	String name;
 	
